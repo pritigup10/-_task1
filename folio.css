@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+body{
+    background: #393838;
+}
+header{
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 60px;
+}
+header .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 1.5px;
+    color: rgb(255, 234, 0);
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+    padding-right: 18px;
+    color: #fff;
+}
+.container{
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    background-color: #2e2d2dfe;
+    display: flex;
+    margin-bottom: 25px;
+}
+.container11 .into{
+    float: left;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.into h3{
+    font-size: 30px;
+    color: #fff;
+}
+.into h3 span{
+    color: red;
+}
+.into h1{
+    /* color: rgb(245, 221, 9); */
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.into p{
+    margin-bottom: 140px;
+    color: #878585;
+}
+.into a{
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(255, 234, 0);
+}
+.container .img{
+    float: right;
+    height: 450px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 100px;
+    background: url(terai3.jpg)no-repeat center center/cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(204, 53, 53, 0.817);
+}
+.acadmy, .exper{
+    padding-left: 60px;
+}
+.acadmy b, .exper b, .project b{
+    color: rgb(225, 212, 148);
+}
+.acadmy h1, .exper h1{
+    margin-top: 20px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    color: rgb(255, 234, 0);
+}
+.acadmy p, .exper p{
+    padding-bottom: 10px;
+    width: 80%;
+    color: #878585;
+}
+.project{
+    margin-left: 60px;
+}
+.project h1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgb(255, 234, 0);
+}
+.exper p{
+    width: 55%;
+    color: #878585;
+}
+.text13{
+    width: 55%;
+}
+.project p{
+    padding-bottom: 10px;
+    color: #878585;
+}
+.hoby, .skill{
+    border: 5px solid rgb(255, 234, 0);
+    box-shadow: 5px 5px 50px 50px rgba(235, 221, 69, 0.877);
+    padding: 15px;
+    width: 25%;
+    height: 45%;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    float: right;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+.skill{
+    margin-left: 30px;
+}
+.hoby h1, .skill h1{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    color: red;
+}
+.hoby ul li, .skill ul li{
+    list-style: none;
+    padding: 5px;
+    color: #fff;
+}
+footer p{
+    
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 200px;
+    /* background: #9191a0; */
+}
